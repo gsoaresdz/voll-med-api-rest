@@ -54,7 +54,7 @@ public class Medico {
     }
 
     if (dados.telefone() != null) {
-      this.email = dados.telefone();
+      this.telefone = dados.telefone();
     }
 
     if (dados.endereco() != null)
