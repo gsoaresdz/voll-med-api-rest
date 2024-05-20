@@ -8,7 +8,7 @@ import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.domain.consulta.ValidacaoException;
 
 @Component
-public class ValidadorHorarioFuncionamentoClinica implements validadorAgendamentoDeConsulta {
+public class ValidadorHorarioFuncionamentoClinica implements ValidadorAgendamentoDeConsulta {
 
   public void validar(DadosAgendamentoConsulta dados) {
     var dataConsulta = dados.data();

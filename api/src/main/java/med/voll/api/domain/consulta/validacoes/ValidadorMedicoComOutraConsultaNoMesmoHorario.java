@@ -8,7 +8,7 @@ import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.domain.consulta.ValidacaoException;
 
 @Component
-public class ValidadorMedicoComOutraConsultaNoMesmoHorario implements validadorAgendamentoDeConsulta {
+public class ValidadorMedicoComOutraConsultaNoMesmoHorario implements ValidadorAgendamentoDeConsulta {
 
   @Autowired
   private ConsultaRepository repository;

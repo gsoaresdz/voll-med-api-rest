@@ -6,7 +6,7 @@ import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.domain.consulta.ValidacaoException;
 import med.voll.api.domain.paciente.PacienteRepository;
 
-public class ValidadorPacienteAtivo implements validadorAgendamentoDeConsulta {
+public class ValidadorPacienteAtivo implements ValidadorAgendamentoDeConsulta {
 
   @Autowired
   private PacienteRepository repository;

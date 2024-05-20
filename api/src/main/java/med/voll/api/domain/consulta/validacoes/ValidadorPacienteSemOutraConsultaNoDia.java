@@ -8,7 +8,7 @@ import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.domain.consulta.ValidacaoException;
 
 @Component
-public class ValidadorPacienteSemOutraConsultaNoDia implements validadorAgendamentoDeConsulta {
+public class ValidadorPacienteSemOutraConsultaNoDia implements ValidadorAgendamentoDeConsulta {
 
   @Autowired
   private ConsultaRepository repository;
