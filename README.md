@@ -11,7 +11,7 @@
 <a href="#checkered_flag-execução">Execução</a>   |  
 <a href="#memo-estrutura-dos-códigos">Estrutura dos Códigos</a>   |  
 <a href="#memo-licença">Licença</a>   |  
-<a href="https://github.com/username" target="_blank">Autor</a>
+<a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
 </p>
 <br>
 
