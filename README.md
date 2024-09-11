@@ -4,7 +4,9 @@
 <a href="#checkered_flag-running-the-application">Running the Application</a>   |
 <a href="#memo-code-structure">Code Structure</a>   |
 <a href="#memo-license">License</a>   |
-<a href="https://github.com/gsoaresdz" target="_blank">Author</a></p><br>## **:dart: About**
+<a href="https://github.com/gsoaresdz" target="_blank">Author</a></p><br>
+
+## **:dart: About**
 
 This repository contains a REST API developed for the management of medical and administrative data in a hospital environment.
 
