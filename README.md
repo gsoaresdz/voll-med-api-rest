@@ -1,77 +1,65 @@
-<h1 align="center">API REST Voll-Med</h1>
-<p align="center">
-<img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/voll-med-api-rest?color=56BEB8">
-<img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/voll-med-api-rest?color=56BEB8">
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/voll-med-api-rest?color=56BEB8">
-</p>
-<p align="center">
-<a href="#dart-sobre">Sobre</a>   |  
-<a href="#rocket-tecnologias">Tecnologias</a>   |  
-<a href="#white_check_mark-requerimentos">Requerimentos</a>   |  
-<a href="#checkered_flag-execução">Execução</a>   |  
-<a href="#memo-estrutura-dos-códigos">Estrutura dos Códigos</a>   |  
-<a href="#memo-licença">Licença</a>   |  
-<a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
-</p>
-<br>
+<h1 align="center">Voll-Med REST API</h1><p align="center"><img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/voll-med-api-rest?color=56BEB8"><img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/voll-med-api-rest?color=56BEB8"><img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/voll-med-api-rest?color=56BEB8"></p><p align="center"><a href="#dart-about">About</a>   |
+<a href="#rocket-technologies">Technologies</a>   |
+<a href="#white_check_mark-requirements">Requirements</a>   |
+<a href="#checkered_flag-running-the-application">Running the Application</a>   |
+<a href="#memo-code-structure">Code Structure</a>   |
+<a href="#memo-license">License</a>   |
+<a href="https://github.com/gsoaresdz" target="_blank">Author</a></p><br>## **:dart: About**
 
-## **:dart: Sobre**
+This repository contains a REST API developed for the management of medical and administrative data in a hospital environment.
 
-Este repositório contém uma API REST desenvolvida para a gestão de dados médicos e administrativos em um ambiente hospitalar.
+## **:rocket: Technologies**
 
-## **:rocket: Tecnologias**
-
-Este projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed using the following technologies:
 
 - [Java](https://www.java.com/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Maven](https://maven.apache.org/)
 
-## **:white_check_mark: Requerimentos**
+## **:white_check_mark: Requirements**
 
-Antes de iniciar :checkered_flag:, você precisa ter [Java](https://www.oracle.com/java/technologies/downloads/#java17) e [Maven](https://maven.apache.org/download.cgi) instalados.
+Before starting :checkered_flag:, you need to have [Java](https://www.oracle.com/java/technologies/downloads/#java17) and [Maven](https://maven.apache.org/download.cgi) installed.
 
-## **:checkered_flag: Execução**
+## **:checkered_flag: Running the Application**
 
-### Clonando o Repositório
+### Cloning the Repository
 
-Primeiramente, clone o repositório do projeto para sua máquina local.
+First, clone the project repository to your local machine.
 
 ```bash
 $ git clone https://github.com/gsoaresdz/voll-med-api-rest.git
+
 ```
 
-### Instalação das Dependências
+### Installing Dependencies
 
-Navegue até o diretório do projeto e instale as dependências com Maven:
+Navigate to the project directory and install the dependencies with Maven:
 
 ```bash
 $ cd voll-med-api-rest
 $ mvn install
 ```
 
-### Executando a Aplicação
+### Running the Application
 
-Para iniciar a aplicação, execute:
+To start the application, run:
 
 ```bash
 $ mvn spring-boot:run
 ```
 
-## **:memo: Estrutura dos Códigos**
+## **:memo: Code Structure**
 
-O código está organizado nas seguintes pastas principais:
+The code is organized in the following main folders:
 
-- `controller`: Controladores da API que lidam com as requisições HTTP.
-- `domain`: Lógica de negócios e modelos de dados.
-- `infra`: Configurações e infraestrutura do projeto.
+- `controller`: API controllers that handle HTTP requests.
+- `domain`: Business logic and data models.
+- `infra`: Project configuration and infrastructure.
 
-## **:memo: Licença**
+## **:memo: License**
 
-Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
-Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+Made with :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
-&#xa0;
-
-<a href="#top">De volta ao topo</a>
+<a href="#top">Back to top</a>
